@@ -36,3 +36,7 @@ def tokenize_text(text, remove_stopwords=False):
             # filters here
             tokens.append(word)
     return tokens
+
+def format_labels1(value,score_label):
+    """ format the labels """
+    return score_label[value]
